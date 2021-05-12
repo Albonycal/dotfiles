@@ -1,4 +1,4 @@
-
+# *** Albony Cal***
 general {
         output_format = "i3bar"
         colors = true 

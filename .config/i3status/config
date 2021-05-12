@@ -1,4 +1,3 @@
-# *** Albony Cal i3status config ***
 
 general {
         output_format = "i3bar"

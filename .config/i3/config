@@ -1,6 +1,3 @@
-# *** Albony Cal ***
-# i3-gaps config
-
 # set modifier
 set $super Mod4
 set $alt Mod1

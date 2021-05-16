@@ -1,4 +1,3 @@
-# *** Albony Cal ***
 # set modifier
 set $super Mod4
 set $alt Mod1
@@ -17,7 +16,7 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id caffeine 
 exec --no-startup-id gammy 
 # start a terminal
-bindsym $super+Return exec kitty 
+bindsym $super+Return exec i3-sensible-terminal
 bindsym $super+Shift+Return exec kitty
 # start dmenu (a program launcher)
 bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
@@ -27,7 +26,8 @@ bindsym ctrl+space exec rofi -lines 12 -padding 18 -width 60 -location 0 -show d
 bindsym $super+Shift+s exec flameshot gui
 bindsym $super+l exec i3lock -i ~/.wallpaper.png
 bindsym $super+Shift+w exec chromium
-bindsym $super+Shift+f exec pcmanfm;workspace 3;focus
+bindsym $super+Shift+f exec thunar;workspace 3;focus
+bindsym $super+Shift+g exec geany
 
 #change volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
@@ -84,6 +84,11 @@ bindsym $super+3 workspace 3
 bindsym $super+4 workspace 4
 bindsym $super+5 workspace 5
 bindsym $super+6 workspace 6
+bindsym $super+7 workspace 7
+bindsym $super+8 workspace 8
+bindsym $super+9 workspace 9
+
+
 
 # move focused container to workspace
 bindsym $super+Shift+1 move container to workspace 1

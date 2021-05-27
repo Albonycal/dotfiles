@@ -50,4 +50,4 @@ alias mpv='mpv --hwdec'
 alias mupdf='zathura'
 alias open='xdg-open'
 #https://github.com/anhsirk0/fetch-master-6000
-alias dogfetch='fm6000 -dog'
+alias dogfetch='fm6000 -color random -dog'

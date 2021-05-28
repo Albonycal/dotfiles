@@ -15,6 +15,9 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - picom (compositor)
 - kitty (terminal & sometimes guake as a dropdown terminal) 
 - Firefox & Ungoogled chromium (web browser)
+- FreeTube (FOSS YouTube client)
+- Delgue
+- GreenTunnel (privacy tool)
 - Arch Linux (Operating System)
 
 

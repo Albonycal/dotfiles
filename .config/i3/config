@@ -21,12 +21,12 @@ bindsym $super+Return exec i3-sensible-terminal
 bindsym $super+Shift+Return exec kitty
 # start dmenu (a program launcher)
 bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
-bindsym ctrl+space exec rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launchers/misc/blurry_full.rasi 
+bindsym ctrl+space exec  rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launchers/colorful/style_8.rasi  
 
 # common apps keybinds
 bindsym $super+Shift+s exec flameshot gui
 bindsym $super+l exec i3lock -i ~/.wallpaper.png
-bindsym $super+Shift+w exec chromium
+bindsym $super+Shift+w exec brave --use-gl=desktop --enable-features=VaapiVideoDecoder
 bindsym $super+Shift+f exec thunar;workspace 3;focus
 
 #change volume

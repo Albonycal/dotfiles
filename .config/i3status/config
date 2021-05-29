@@ -1,4 +1,4 @@
-# *** Albony Cal***
+
 general {
         output_format = "i3bar"
         colors = true 
@@ -13,8 +13,8 @@ general {
 order += "cpu_temperature 0"
 #order += "disk /"
 #order += "disk /home"
-#order += "ethernet enp1s0"
-order += "wireless wlp3s0"
+order += "ethernet enp9s0"
+#order += "wireless wlp3s0"
 order += "volume master"
 order += "battery 1"
 order += "tztime local"
@@ -36,7 +36,7 @@ disk "/home" {
         format = "<span background='#4C566A'>  %free Free </span>"
 }
 
-ethernet enp1s0 {
+ethernet enp9s0 {
         format_up = "<span background='#4C566A'>  %ip </span>"
         format_down = "<span background='#4C566A'>  Disconnected </span>"
 }

@@ -13,7 +13,7 @@ exec --no-startup-id xsettingsd &
 exec --no-startup-id picom --experimental-backend --vsync  -b
 exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id caffeine 
+exec --no-startup-id caffeine -a 
 exec --no-startup-id guake
 exec --no-startup-id gammy 
 # start a terminal

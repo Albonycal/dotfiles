@@ -11,6 +11,7 @@ export DMEDITOR='nvim'
 export EDITOR='nvim'
 export DMBROWSER='firefox'
 export PATH=$PATH:~/go/bin:~/.local/bin
+export DOOMDIR=~/.config/doom
 eval "$(ssh-agent -s)" >/dev/null
 #starship prompt
 source <("/usr/bin/starship" init zsh --print-full-init)
@@ -92,3 +93,4 @@ alias mupdf='zathura'
 alias open='xdg-open'
 #https://github.com/anhsirk0/fetch-master-6000
 alias dogfetch='fm6000 -color random -dog'
+alias pywalr='pywalr ~/pix/wallpapers/'

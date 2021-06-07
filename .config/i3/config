@@ -15,7 +15,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id caffeine -a 
 exec --no-startup-id guake
-exec --no-startup-id gammy 
+exec --no-startup-id gammy
+exec --no-startup-id hakcron -f "every 3m" -c "curl https://link-ip.nextdns.io/63411d/34be2243aaf89338" &>/dev/null &disown 
 # start a terminal
 bindsym $super+Return exec i3-sensible-terminal
 bindsym $super+Shift+Return exec kitty
@@ -150,7 +151,7 @@ client.background       #F8F8F2
 bar {
     status_command i3status
     tray_output primary
-    font pango: Iosevka Medium 20px
+    font pango: Fira Code 20px
    # height 31
   colors {
     background #282A36

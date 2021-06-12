@@ -78,6 +78,9 @@ function extract {
     done
 fi
 }
+#tmux
+#tmux -u
+#unset TMUX
 #alias'es 
 alias cls='clear'
 alias ls='exa --color auto'

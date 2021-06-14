@@ -12,6 +12,7 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 ### Apps that I use
 - Neovim (Text Editor)
 - i3wm (Window Manager)
+- dwm (Build will be on github soon)
 - picom (compositor)
 - kitty (terminal & sometimes guake as a dropdown terminal) 
 - Firefox & Ungoogled chromium (web browser)

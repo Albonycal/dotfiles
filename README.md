@@ -20,7 +20,7 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - Delgue
 - GreenTunnel (privacy tool)
 - Arch Linux (Operating System)
-
+- Stubby (local DNS client for DoT)
 
 
 ### License 

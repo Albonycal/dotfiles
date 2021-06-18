@@ -21,7 +21,8 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - GreenTunnel (privacy tool)
 - Arch Linux (Operating System)
 - Stubby (local DNS client for DoT)
-
+- Whoogle: Self Hosted Search engine
+- ActivityWatch: FOSS, Local TimeTracking software
 
 ### License 
 You can use my configs as long as you give the credit to me :P 

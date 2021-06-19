@@ -23,7 +23,8 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - Stubby (local DNS client for DoT)
 - Whoogle: Self Hosted Search engine
 - ActivityWatch: FOSS, Local TimeTracking software
-
+- gammy (eye protector)
+- pihole
 ### License 
 You can use my configs as long as you give the credit to me :P 
 LOL

@@ -13,6 +13,7 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - Neovim (Text Editor)
 - i3wm (Window Manager)
 - dwm [https://github.com/Albonycal/dwm](https://github.com/Albonycal/dwm) 
+- dwmblocks (for dwm status)
 - picom (compositor)
 - kitty (terminal & sometimes guake as a dropdown terminal) 
 - Firefox & Ungoogled chromium (web browser)

@@ -1,0 +1,78 @@
+
+# APPLICATION KEYBINDINGS (Super + Alt + Key)
+
+# terminal emulator
+super + Return
+    kitty	
+# launch ncpamixer
+super + alt + a
+    kitty -e ncpamixer
+# launch brave web browser
+#super + alt + l
+ #   kitty -e  brave --enable-features=VaapiVideoDecoder 
+# launch newsboat feed reeder
+super + alt + n
+    kitty -e newsboat
+    
+super + shift + s
+    flameshot gui
+
+super + w
+    brave --use-gl=desktop --enable-features=VaapiVideoDecoder
+
+ctrl + space
+    rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launchers/colorful/style_8.rasi
+super + shift + l
+    slock
+
+super + shift + d 
+    passmenu
+#################################################################
+#     MULTIMEDIA KEYS
+#################################################################
+
+#Raises volume
+XF86AudioRaiseVolume
+    amixer set Master 10%+
+
+#Lowers volume
+XF86AudioLowerVolume
+    amixer set Master 10%-
+
+#Mute
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+
+#Playerctl works for Pragha, Spotify and others
+#Delete the line for playerctl if you want to use mpc
+#and replace it with the corresponding code
+#mpc works for e.g.ncmpcpp
+#mpc toggle
+#mpc next
+#mpc prev
+#mpc stop
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+
+#Next
+XF86AudioNext
+    playerctl next
+
+#previous
+XF86AudioPrev
+    playerctl previous
+
+#Stop
+XF86AudioStop
+    playerctl stop
+
+#Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+#Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10
+

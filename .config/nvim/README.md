@@ -6,7 +6,7 @@
 
 - Copy this folder into `~/.config/`
 
-- `nvim +PluginInstall`
+- Run `nvim +PluginInstall`
 
 - Done
 

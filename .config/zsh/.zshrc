@@ -14,8 +14,6 @@ export PATH=$PATH:~/go/bin:~/.local/bin
 export DOOMDIR=~/.config/doom
 #YTFZF
 export FZF_PLAYER="devour mpv --hwdec"
-export YTFZF_PLAYER_FORMAT="devour mpv --ytdl-format="
-export YTFZF_AUDIO_PLAYER="devour mpv --no-video"
 eval "$(ssh-agent -s)" >/dev/null
 #starship prompt
 source <("/usr/bin/starship" init zsh --print-full-init)
@@ -98,6 +96,7 @@ alias vim='nvim'
 alias v='nvim'
 alias mirror="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 alias tmux='tmux -u'
+alias "mpvd"='devour mpv --hwdec'
 alias mpv='mpv --hwdec'
 alias mupdf='zathura'
 alias open='xdg-open'

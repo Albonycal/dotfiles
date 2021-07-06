@@ -12,6 +12,10 @@ export EDITOR='nvim'
 export DMBROWSER='firefox'
 export PATH=$PATH:~/go/bin:~/.local/bin
 export DOOMDIR=~/.config/doom
+#YTFZF
+export FZF_PLAYER="devour mpv --hwdec"
+export YTFZF_PLAYER_FORMAT="devour mpv --ytdl-format="
+export YTFZF_AUDIO_PLAYER="devour mpv --no-video"
 eval "$(ssh-agent -s)" >/dev/null
 #starship prompt
 source <("/usr/bin/starship" init zsh --print-full-init)
@@ -22,6 +26,9 @@ source /home/albony/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.config/zsh/key-bindings.zsh
 source $HOME/.config/zsh/history.zsh
 source $HOME/.config/zsh/vi-mode.plugin.zsh
+#fzf
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
 #plugin conf
 
 # Initialize the completion system

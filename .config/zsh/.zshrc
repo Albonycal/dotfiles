@@ -20,7 +20,7 @@ source <("/usr/bin/starship" init zsh --print-full-init)
 #plugins
 source $HOME/.config/zsh/completion.zsh 
 source $HOME/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 
-source /home/albony/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.config/zsh/key-bindings.zsh
 source $HOME/.config/zsh/history.zsh
 source $HOME/.config/zsh/vi-mode.plugin.zsh

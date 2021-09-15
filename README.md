@@ -27,9 +27,4 @@ The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/a
 - pihole
 ### License 
 You can use my configs as long as you give the credit to me :P 
-LOL
-
-### Break
-Currently taking a break..
-Waiting for new laptop to arrive ;)
 

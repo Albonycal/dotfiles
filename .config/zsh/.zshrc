@@ -103,3 +103,5 @@ alias open='xdg-open'
 #https://github.com/anhsirk0/fetch-master-6000
 alias dogfetch='fm6000 -color random -dog'
 alias pywalr='pywalr ~/pix/wallpapers/'
+#dependency aria2c
+#alias wget='aria2c -x16 $1'

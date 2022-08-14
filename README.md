@@ -11,6 +11,7 @@ Wallpapers downloaded from [https://wallpaperflare.com/](https://wallpaperflare.
 The rofi themes are from [https://github.com/adi1090x/rofi](https://github.com/adi1090x/rofi)
 
 ### Apps that I use
+*Note that this list might be horribly outdated*
 - Neovim (Text Editor)
 - i3wm (Window Manager)
 - dwm [https://github.com/Albonycal/dwm](https://github.com/Albonycal/dwm) 

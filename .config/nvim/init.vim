@@ -1,25 +1,19 @@
-" Vundle
-filetype off
-
-let g:vundle_default_git_proto = 'git'
-set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin('~/.config/nvim/bundle')
-
+call plug#begin()
 " Bundles
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'sjl/gundo.vim'
-Plugin 'godlygeek/tabular'
+Plug 'VundleVim/Vundle.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'sjl/gundo.vim'
+Plug 'godlygeek/tabular'
 "Plugin 'bling/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'scrooloose/nerdtree'
-Plugin 'TomNomNom/xoria256.vim'
-Plugin 'fatih/vim-go'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'TomNomNom/xoria256.vim'
+Plug 'fatih/vim-go'
 "Plugin 'dracula/vim', { 'name': 'dracula' }
-Plugin 'itchyny/lightline.vim' 
+Plug 'itchyny/lightline.vim' 
 "Plugin 'ActivityWatch/aw-watcher-vim'
-call vundle#end()
+call plug#end()
 
 
 " Required for vundle

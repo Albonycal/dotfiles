@@ -25,8 +25,8 @@ source $HOME/.config/zsh/key-bindings.zsh
 source $HOME/.config/zsh/history.zsh
 source $HOME/.config/zsh/vi-mode.plugin.zsh
 #fzf
-source /usr/share/fzf/completion.zsh
-source /usr/share/fzf/key-bindings.zsh
+#source /usr/share/fzf/completion.zsh
+#source /usr/share/fzf/key-bindings.zsh
 #plugin conf
 
 # Initialize the completion system

@@ -15,7 +15,16 @@ export PATH=$PATH:~/go/bin:~/.local/bin
 export DOOMDIR=~/.config/doom
 #YTFZF
 export FZF_PLAYER="devour mpv --hwdec"
-eval "$(ssh-agent -s)" >/dev/null
+
+# SSH agent 
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent -t 1h > "$XDG_RUNTIME_DIR/ssh-agent.env"
+fi
+if [[ ! -f "$SSH_AUTH_SOCK" ]]; then
+    source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
+fi
+
+
 #starship prompt
 source <("/usr/bin/starship" init zsh --print-full-init)
 #plugins

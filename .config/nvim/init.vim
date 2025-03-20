@@ -1,3 +1,13 @@
+" Automatically install vim-plug if not present
+let data_dir = stdpath('data') . '/site'
+let plug_path = data_dir . '/autoload/plug.vim'
+
+if empty(glob(plug_path))
+  silent execute '!curl -fLo ' . plug_path . ' --create-dirs ' .
+        \ 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin()
 " Bundles
 Plug 'VundleVim/Vundle.vim'
